@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: purple;  /* Changed background to purple */
+    color: black;  /* Text color changed to black */
+    font-weight: bold;  /* Made text bold */
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    margin-top: 20px;
+}
+
+button {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
